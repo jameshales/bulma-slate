@@ -1,0 +1,36 @@
+{
+  "name": "bulma-slate",
+  "version": "1.0.0",
+  "description": "A dark theme for Bulma, based on the Bulmaswatch Slate theme.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshales/bulma-slate.git"
+  },
+  "keywords": [
+    "bulma",
+    "css",
+    "slate"
+  ],
+  "author": "James Hales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameshales/bulma-slate/issues"
+  },
+  "homepage": "https://github.com/jameshales/bulma-slate#readme",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "css-loader": "^5.2.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
